@@ -1,0 +1,14 @@
+When we go for two pointer technic.
+
+When you read a problem, ask these:
+Step-by-step thinking:
+❓ Is the array sorted?
+→ YES → Try two pointers immediately
+❓ Do I need pair/triplet?
+→ YES → Two pointers likely
+❓ Can I reduce nested loops?
+→ YES → Replace O(n²) with two pointers
+❓ Am I comparing from both ends?
+→ YES → Two pointers
+❓ Is it about subarray/substring?
+→ YES → Sliding window (two pointers)
