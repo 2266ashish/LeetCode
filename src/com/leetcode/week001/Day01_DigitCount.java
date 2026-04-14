@@ -14,8 +14,6 @@ public class Day01_DigitCount {
             num=num/10;
             result++;
         }
-
-
         return result;
     }
 
