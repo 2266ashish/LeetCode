@@ -24,5 +24,18 @@ public class Day01_ArrayConcatenation {
         }
         return result;
     }
+
+
+    //better approach eliminate the if-else using modulo (%)
+    public static int[] concatenation_better(int[] arr) {
+        int n = arr.length;
+        int[] result = new int[2 * n];
+
+        for (int i = 0; i < 2 * n; i++) {
+            result[i] = arr[i % n];
+        }
+
+        return result;
+    }
 }
 
