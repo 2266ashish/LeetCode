@@ -11,7 +11,7 @@ The tests are generated such that there is exactly one solution. You may not use
 Your solution must use only constant extra space.
  */
 
-public class Day01_TwoSum2 {
+public class Day01_003TwoSum2 {
     public static void main(String[] args) {
         int[] numbers ={2,7,11,15};
         int target = 9;

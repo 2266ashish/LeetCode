@@ -4,7 +4,7 @@ package com.leetcode.week001;
 1929. Concatenation of Array
 https://leetcode.com/problems/concatenation-of-array/description/
 */
-public class Day01_ArrayConcatenation {
+public class Day01_001ArrayConcatenation {
     public static void main(String[] args) {
         int[] arr = {1,2,1};
         int[] result = concatenation(arr);

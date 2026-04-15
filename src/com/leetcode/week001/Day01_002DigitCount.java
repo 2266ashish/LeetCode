@@ -1,6 +1,6 @@
 package com.leetcode.week001;
 
-public class Day01_DigitCount {
+public class Day01_002DigitCount {
 
     public static void main(String[] args) {
         int result = digitCount(123);
